@@ -4,7 +4,7 @@ YANG modeling language files for syntax highlighting and auto-completion for Not
 Definition of keywords is based on [RFC7950](https://tools.ietf.org/html/rfc7950) for YANG 1.1 (contains [RFC6020](https://tools.ietf.org/html/rfc6020) as well).
 
 ## Getting Started
-This instruction will get you a setup for YANG syntax-highlighting and auto-completing in Notepad++.
+This instruction will get you a setup for YANG syntax-highlighting and auto-completion in Notepad++.
 
 ### Prerequisites
 
@@ -34,7 +34,7 @@ $ git clone https://github.com/gribok/notepad-plus-plus-yang-language.git
    
    The name of auto-completion file is important and have to be named as the name definition inside of the UDL file.
    
-   For example:
+   **For example:**
    
    ``` bash
    $ cat yang_udl.xml
