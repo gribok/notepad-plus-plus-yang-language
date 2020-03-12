@@ -19,7 +19,7 @@ $ git clone https://github.com/gribok/notepad-plus-plus-yang-language.git
 
 2. Import User Defined Language (UDL) for YANG. There are two main ways to do this.
 
-    1. Copy the XML `yang_by-gribok.xml` into the `<notepad++_install_directory>/userDefineLangs` subfolder.
+    1. Copy the XML `yang_by-gribok.xml` [Link](./yang_by-gribok.xml)  into the `<notepad++_install_directory>/userDefineLangs` subfolder.
 
        For Notepad++ **v7.6.1 and earlier** this option doesn't exist.
 
@@ -28,7 +28,7 @@ $ git clone https://github.com/gribok/notepad-plus-plus-yang-language.git
 
     The differences between those two methods are when the UDL will be available to Notepad++, and which config file will hold that UDL, per UDL File Locations.
 
-3. Copy **auto-completion file** `yang.xml` to `<notepad++_install_directory>/autoCompletion` subdirectory of the Notepad++ install folder.
+3. Copy **auto-completion file** `yang.xml` [Link](./yang.xml) to `<notepad++_install_directory>/autoCompletion` subdirectory of the Notepad++ install folder.
 
    For Notepad++ **v7.6.1 and earlier** copy to `<notepad++_install_directory>/plugins/APIs`.
 
