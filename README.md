@@ -17,32 +17,32 @@ Download and install [Notepad++](https://notepad-plus-plus.org/downloads/).
 $ git clone https://github.com/gribok/notepad-plus-plus-yang-language.git
 ```
 
-2. Import User Defined Language (UDL) for YANG. There are two main ways to do this. 
+2. Import User Defined Language (UDL) for YANG. There are two main ways to do this.
 
-    1. Copy the XML into the `<notepad++_install_directory>/userDefineLangs` subfolder.
-    
+    1. Copy the XML `yang_by-gribok.xml` into the `<notepad++_install_directory>/userDefineLangs` subfolder.
+
        For Notepad++ **v7.6.1 and earlier** this option doesn't exist.
-    
+
     2. Use the Import button.
-       Navigate per menu bar to `Languages > Define Your Language`. It will bring up a dialog box. Click on `import` button and insert the source XML. The UDL will be immediately available.
+       Navigate per menu bar to `Languages > Define Your Language`. It will bring up a dialog box. Click on `import` button and insert the source XML `yang_by-gribok.xml`. The UDL will be immediately available.
 
     The differences between those two methods are when the UDL will be available to Notepad++, and which config file will hold that UDL, per UDL File Locations.
 
 3. Copy **auto-completion file** `yang.xml` to `<notepad++_install_directory>/autoCompletion` subdirectory of the Notepad++ install folder.
-   
+
    For Notepad++ **v7.6.1 and earlier** copy to `<notepad++_install_directory>/plugins/APIs`.
-   
+
    The name of auto-completion file is important and have to be named as the name definition inside of the UDL file.
-   
+
    **For example:**
-   
+
    ``` bash
-   $ cat yang_udl.xml
+   $ cat yang_by-gribok.xml
    [output omitted]
    <UserLang name="YANG" ext="yang" udlVersion="2.1">
    [output omitted]
    ```
-   
+
    Then the name of auto-completion file have to be `yang.xml`.
 
 4. Exit all instances of Notepad++ and reload, then the new UDL with auto-completion will be available.
@@ -54,6 +54,7 @@ Detailed documentation about [User Defined Language Documentation](https://npp-u
 
 Detailed documentation about [Auto Completion](https://npp-user-manual.org/docs/auto-completion/).
 
+Further UDLs for different languages under [notepad-plus-plus/userDefinedLanguages](https://github.com/notepad-plus-plus/userDefinedLanguages)
 
 ## Contributing
 Be welcome to pull requests!
